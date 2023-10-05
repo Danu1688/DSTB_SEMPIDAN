@@ -1,0 +1,131 @@
+proxies:
+- name: DstbGskNusa_Akrab_IP1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DstbGskNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DstbGskNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DstbGskNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DstbGskNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DstbGskNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 177569a1-3415-40c8-8d24-e2fc256f80ca
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: MessGSK_DO_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: a29bd946-25f8-4300-9057-1eb75934a756
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: MessGSK_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4f869071-73fd-47cd-a585-090bca382eb9
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+- name: TrojanWsSvr-DO_3
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  udp: true
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo3.dstb.cloud
+- name: DanuBackup_DO
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
