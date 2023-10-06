@@ -1,4 +1,82 @@
 proxies:
+- name: MessSempidanDo2_Akrab_IP1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: MessSempidanDo2_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: MessSempidanDo2_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: MessSempidanDo2_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: MessSempidanDo2_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: MessSempidanDo2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
 - name: DstbGskNusa_Akrab_IP1
   type: trojan
   server: 104.18.1.196
