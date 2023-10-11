@@ -1,7 +1,7 @@
 proxies:
-- name: MessSempidanDo2_Akrab_IP1
+- name: MessSempidanDo2_Live_IP1
   type: trojan
-  server: 104.18.1.196
+  server: 104.17.224.203
   port: 443
   password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
   udp: true
@@ -12,9 +12,9 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: MessSempidanDo2_Live_IP1
+- name: MessSempidanDo2_Akrab_IP1
   type: trojan
-  server: 104.17.224.203
+  server: 104.18.1.196
   port: 443
   password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
   udp: true
