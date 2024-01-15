@@ -1,83 +1,96 @@
 proxies:
-- name: MessSempidanDo2_Live_IP1
+- name: SvrAtha51_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
-- name: MessSempidanDo2_Akrab_IP1
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: MessSempidanDo2_Live_IP2
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
-- name: MessSempidanDo2_Live_IP3
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
-- name: MessSempidanDo2_Live_IP4
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
-- name: MessSempidanDo2_Live_IP5
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
-  password: 17bf0080-cd11-4f06-ba1b-5efd34c63ea5
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
-  sni: dstb.cloud
+  sni: id3.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: dstb.cloud
-- name: ServerNusa_Live_IP1
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrNusa51_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -90,7 +103,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_IP2
+- name: SvrNusa51_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -103,7 +116,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_IP3
+- name: SvrNusa51_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -116,7 +129,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_IP4
+- name: SvrNusa51_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -129,7 +142,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_IP5
+- name: SvrNusa51_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -142,7 +155,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_H1
+- name: SvrNusa51_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -155,7 +168,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: ServerNusa_Live_H2
+- name: SvrNusa51_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
